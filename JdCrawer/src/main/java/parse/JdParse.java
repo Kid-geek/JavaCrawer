@@ -10,6 +10,8 @@ import org.jsoup.select.Elements;
 
 import model.JdModel;
 
+//Jsoup匹配数据
+
 public class JdParse {
 
 	public static List<JdModel> getData(String html) throws Exception {

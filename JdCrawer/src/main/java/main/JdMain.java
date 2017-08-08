@@ -20,9 +20,10 @@ public class JdMain {
 		List<JdModel> bookdatas=URLFecter.URLParser(client,url);
 		for(JdModel jd:bookdatas){
 			logger.info("bookID:"+jd.getBookID()+"\t"+"bookPrice:"+jd.getBookPrice()+"\t"+"bookName:"+jd.getBookName());
-			logger.info(bookdatas.size());
 		}
-//		 MYSQLControl.executeInsert(bookdatas);
+		 
+		MYSQLControl my=new MYSQLControl();
+		my.executeInsert(bookdatas);
 		
 	}
 }

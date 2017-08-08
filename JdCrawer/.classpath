@@ -26,5 +26,7 @@
 	<classpathentry kind="lib" path="src/main/java/httpclient-4.5.2.jar"/>
 	<classpathentry kind="lib" path="src/main/java/httpcore-4.4.4.jar"/>
 	<classpathentry kind="lib" path="src/main/java/jsoup-1.7.1.jar"/>
+	<classpathentry kind="lib" path="commons-dbcp2-2.1.1.jar"/>
+	<classpathentry kind="lib" path="mysql-connector-java-5.0.8-bin.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
