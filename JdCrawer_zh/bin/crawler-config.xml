@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crawler-config>
+
+	<!-- Crawler 实例名称  -->
+	<crawler-type type="1">图书</crawler-type>
+	
+	<crawler-name>手机</crawler-name>
+		
+	<download-pic>G:\JD\</download-pic>
+	
+</crawler-config>

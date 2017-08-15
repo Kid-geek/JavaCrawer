@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<job-config>
+	<!-- Crawler 实例名称  -->
+	<crawler-name>Crawler-TEST</crawler-name>
+	
+	
+	
+</job-config>
